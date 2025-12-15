@@ -64,7 +64,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn it_works() {
+    fn calc_hit_test() {
         let lines = read_lines(PATH_TO_INPUT);
         let result = calc_hit(&lines, DIAL_SIZE, DIAL_START_AT);
         assert_eq!(result, 1118);
